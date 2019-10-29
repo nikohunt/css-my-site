@@ -7,17 +7,17 @@ h1 {
   margin-top: 0;
 }
 
-.top {
+.top-container {
   background-color: #f0d78c;
 }
 
-.middle {
+.middle-container {
   background-color: red;
   height: 200px;
   width: 200px;
 }
 
-.bottom {
+.bottom-container {
   background-color: blue;
   height: 200px;
   width: 200px;
