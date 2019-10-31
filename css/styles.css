@@ -1,14 +1,27 @@
 body {
-  margin: 0;
   color: #fcfafa;
+  margin: 0;
+  text-align: center;
 }
 
 h1 {
   margin-top: 0;
 }
 
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 70px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
 .top-container {
-  background-color: #f0d78c;
+  background-color: #4f81c7;
+  padding-top: 130px;
+  position: relative;
 }
 
 .middle-container {
