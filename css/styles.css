@@ -1,4 +1,5 @@
 body {
+  background-color: #4f81c7;
   color: #fcfafa;
   font-family: 'Martel', serif;
   margin: 0;
@@ -29,19 +30,14 @@ h3 {
 }
 
 .top-container {
-  background-color: #4f81c7;
   padding-top: 130px;
   position: relative;
 }
 
-.middle-container {
-  background-color: red;
-  height: 200px;
-  width: 200px;
+/* .middle-container {
+
 }
 
 .bottom-container {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
-}
+
+} */
