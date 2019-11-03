@@ -22,18 +22,8 @@ h2 {
 }
 
 h3 {
+  color: #f0d78c;
   font-family: 'Josefin Sans', sans-serif;
-}
-
-/* .bar-chart-container {
-  height: 500px;
-  width: 500px;
-} */
-
-.bar-chart {
-  height: 400px;
-  width: 500px;
-  object-fit: none;
 }
 
 .top-cloud {
@@ -42,14 +32,30 @@ h3 {
   top: 70px;
 }
 
+.skill-row {
+  line-height: 2;
+  height: 200px;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.bar-chart {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.python {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
 .bottom-cloud {
   position: absolute;
 }
 
-.skill-row {
-  margin: 100px auto;
-  width: 50%;
-}
 
 .top-container {
   padding-top: 130px;
