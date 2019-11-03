@@ -10,12 +10,12 @@ h1 {
   color: #f0d78c;
   font-family: "Permanent Marker", serif;
   font-size: 5.625rem;
+  line-height: 2;
   margin: 50px auto 0 auto;
 }
 
 h2 {
   color: #f0d78c;
-  line-height: 2;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
@@ -23,6 +23,17 @@ h2 {
 
 h3 {
   font-family: 'Josefin Sans', sans-serif;
+}
+
+/* .bar-chart-container {
+  height: 500px;
+  width: 500px;
+} */
+
+.bar-chart {
+  height: 400px;
+  width: 500px;
+  object-fit: none;
 }
 
 .top-cloud {
@@ -35,15 +46,12 @@ h3 {
   position: absolute;
 }
 
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+}
+
 .top-container {
   padding-top: 130px;
   position: relative;
 }
-
-/* .middle-container {
-
-}
-
-.bottom-container {
-
-} */
