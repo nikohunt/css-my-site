@@ -1,9 +1,14 @@
 body {
-  background-color: #4f81c7;
-  color: #fcfafa;
+  color: #4f81c7;
   font-family: 'Martel', serif;
   margin: 0;
   text-align: center;
+}
+
+.top-container {
+  background-color: #4f81c7;
+  padding-top: 130px;
+  position: relative;
 }
 
 h1 {
@@ -15,15 +20,31 @@ h1 {
 }
 
 h2 {
-  color: #f0d78c;
+  color: #64c4ed;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
 }
 
 h3 {
-  color: #f0d78c;
+  color: #64c4ed;
   font-family: 'Josefin Sans', sans-serif;
+  /* padding: 20px 0; */
+}
+
+.profile {
+  padding-bottom: 50px;
+}
+
+hr {
+  width: 8%;
+  border: 0;
+  border-top: 10px dotted;
+  height: 0;
+}
+
+.skills {
+  padding-top: 50px;
 }
 
 .top-cloud {
@@ -37,7 +58,12 @@ h3 {
   height: 200px;
   margin: 100px auto;
   text-align: left;
-  width: 50%;
+  width: 70%;
+}
+
+.contact-me {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .bar-chart {
@@ -56,8 +82,41 @@ h3 {
   position: absolute;
 }
 
+.btn-container {
+  padding: 50px 0;
+}
 
-.top-container {
-  padding-top: 130px;
-  position: relative;
+.bottom-container {
+  padding: 30px 0 23px 0;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color:  #f0d78c;
+  line-height: 3;
+  color: #4f81c7;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-link {
+  margin: 0 25px;
+}
+
+.copyright-text {
+  font-size: 12px;
+}
+
+.btn {
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 30px 0;
+  color: #fcfafa;
+  font-size: 18px;
+  padding: 20px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  background: #64c4ed;
 }
