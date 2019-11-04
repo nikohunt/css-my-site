@@ -32,6 +32,11 @@ h3 {
   /* padding: 20px 0; */
 }
 
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
 .profile {
   padding-bottom: 50px;
 }
@@ -53,29 +58,38 @@ hr {
   top: 70px;
 }
 
-.skill-row {
+p {
   line-height: 2;
+
+}
+
+.contact-message {
+  width: 40%;
+  margin: auto;
+}
+
+.skill-row {
   height: 200px;
   margin: 100px auto;
   text-align: left;
-  width: 70%;
+  width: 50%;
 }
 
 .contact-me {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .bar-chart {
   float: left;
   margin-right: 30px;
-  width: 25%;
+  width: 200px;
 }
 
 .python {
   float: right;
   margin-left: 30px;
-  width: 25%;
+  width: 200px;
 }
 
 .bottom-cloud {
@@ -86,10 +100,15 @@ hr {
   padding: 50px 0;
 }
 
+.main-image {
+  height: 600px;
+  margin-top: 100px;
+}
+
 .bottom-container {
   padding: 30px 0 23px 0;
   font-family: 'Josefin Sans', sans-serif;
-  background-color:  #f0d78c;
+  background-color: #f0d78c;
   line-height: 3;
   color: #4f81c7;
   text-decoration: none;
@@ -98,6 +117,10 @@ hr {
 a {
   text-decoration: none;
   color: white;
+}
+
+a:hover {
+  color: #4f81c7;
 }
 
 .footer-link {
@@ -119,4 +142,8 @@ a {
   -moz-border-radius: 7px;
   border-radius: 7px;
   background: #64c4ed;
+}
+
+.btn:hover {
+  background: #4f81c7;
 }
